@@ -1,0 +1,8 @@
+omposer-overlay])>[data-slot=conversation\\.session]>.an3WzG_viewArea{flex:1 1 0;min-height:0;overflow:hidden}.an3WzG_scrollBody:has([data-conversation-composer-overlay])>.an3WzG_composerSeat{right:var(--dsh-scrollbar-width);position:absolute;bottom:0;left:0}.an3WzG_composerHero{width:min(calc(var(--dsh-composer-card-max-width) + 2 * var(--dsh-composer-side-clearance)), 100%);z-index:1;align-self:center;gap:8px;padding-bottom:32px}.an3WzG_heroWorkspaceRow{align-items:center;gap:2px;min-width:0;margin-top:4px;padding:0 16px 0 20px;display:flex}.an3WzG_heroOptions{flex:none;align-items:center;gap:2px;min-width:0;margin-left:auto;display:flex}.an3WzG_heroOptions:empty{display:none}.an3WzG_root[data-phase=hero] .an3WzG_scrollBody,.an3WzG_embeddedBody[data-content-phase=hero] .an3WzG_scrollBody{justify-content:center;overflow-y:auto}.an3WzG_root[data-phase=settling] .an3WzG_composerSeat,.an3WzG_embeddedBody[data-content-phase=settling] .an3WzG_composerSeat{visibility:hidden}";
+		const tagId$4 = "@deepseek-ai/dsh-client-ui-conversation/ConversationRoot.module.css";
+		if (typeof document !== "undefined" && document.querySelector("style[data-plugin-css=" + JSON.stringify(tagId$4) + "]") === null) {
+			const tag = document.createElement("style");
+			tag.dataset.plugin = "@deepseek-ai/dsh-client-ui-conversation";
+			tag.dataset.pluginCss = tagId$4;
+			tag.textContent = css$4;
+			document

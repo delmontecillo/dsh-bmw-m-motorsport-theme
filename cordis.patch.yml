@@ -1,0 +1,3 @@
+- insert:
+    - id: bmw-m-theme
+      name: '@bmwm/dsh-theme'

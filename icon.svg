@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="BMW M Motorsport theme">
+  <defs>
+    <clipPath id="bmw-m-icon-plate">
+      <rect x="3" y="3" width="58" height="58" rx="12"/>
+    </clipPath>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="#F6F4EF"/>
+  <g clip-path="url(#bmw-m-icon-plate)">
+    <g transform="rotate(-24 32 32)">
+      <rect x="-18" y="-16" width="16" height="96" fill="#17449A"/>
+      <rect x="-2" y="-16" width="16" height="96" fill="#2F7BFF"/>
+      <rect x="14" y="-16" width="16" height="96" fill="#35B7F2"/>
+      <rect x="30" y="-16" width="16" height="96" fill="#D81E1E"/>
+    </g>
+    <path d="M34 3 L61 3 L61 61 L42 61 Z" fill="#F6F4EF"/>
+    <path d="M34 3 L42 61" stroke="#0A0A0B" stroke-width="1.4"/>
+    <rect x="0" y="0" width="64" height="9" fill="#0A0A0B"/>
+    <path d="M0 9 L64 9" stroke="#D81E1E" stroke-width="1.8"/>
+  </g>
+  <path d="M44 46 L44 25 L50.5 37 L57 25 L57 46" fill="none" stroke="#0A0A0B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="none" stroke="#0A0A0B" stroke-width="2"/>
+</svg>

@@ -1,0 +1,47 @@
+{
+  "name": "@bmwm/dsh-theme",
+  "version": "1.8.0",
+  "private": true,
+  "description": "BMW M Motorsport theme for DeepSeek Harness: Warsteiner-liveried M3 white, royal blue, azure, cyan, red, checkered flags, the BMW Motorsport banner, the supplied roundel on the hero, and a time-of-day greeting above New Session.",
+  "type": "module",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "README.md"
+  ],
+  "license": "MIT",
+  "author": "Sean Montecillo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delmontecillo/dsh-bmw-m-motorsport-theme.git"
+  },
+  "homepage": "https://github.com/delmontecillo/dsh-bmw-m-motorsport-theme#readme",
+  "bugs": {
+    "url": "https://github.com/delmontecillo/dsh-bmw-m-motorsport-theme/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}
